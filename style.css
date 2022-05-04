@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    color: #333;
+    font-size: 62.5%;
+    font-family: "Open Sans", sans-serif;
+  }
+  body{
+      display: flex;
+      align-items: center;
+      background-color: #F1F1F1;
+  }
+  .form__title{
+      text-align: center;
+      font-size: 22px;
+      font-weight: 400;
+  }
+  .form__description{
+      text-align: center;
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: 200;
+      color: #636D77;
+  }
+  .form__container{
+      border-radius: 10px;
+      display: inline-block;
+      background-color:white;
+      margin: 20px auto ;
+      padding: 40px;
+      height: 900px;
+  }
+ 
+  .form__name{
+      margin-top: 20px;
+  }
+  .margin-top{
+    margin-top:  40px;
+}
+  .email__label{
+      display: block;
+      font-size: 16px;
+      font-weight: 600;
+  }
+  .email__input{
+      margin-top: 6px;
+      margin-bottom: 4px;
+      border-radius: 2px;
+      border: 1px solid #b3b3b3 ;
+      outline: none;
+      padding-left: 6px;
+      font-size: 14px;
+      height: 38px;
+      width: 100%;
+  }
+  .invalid{
+    color: red;
+    font-size: 12px;
+    display: block;
+  }
+  .invalid-input{
+      border-color: red;
+  }
+  .email__input:hover{
+    border-color:#1dbfaf
+  }
+  .form-submit{
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #1dbfaf;
+    border: 0px solid ;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .form-submit:hover{
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  .form__name-radio{
+    font-size: 16px;
+  }
+  .form__name__gender{
+    font-weight: 600;
+  }
+  .form_gender{
+    margin: 0px 0px 0 20px;
+  }
+  .input_avatar{
+    padding-top: 2px;
+    font-size: 22px;
+  }
